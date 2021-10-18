@@ -1,0 +1,35 @@
+#div-projects {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#div-contact-title {
+  background-color: yellow;
+  padding: 5rem;
+}
+#div-contact-links {
+  background-color: #383636;
+  padding-top: 2rem;
+  padding-left: 5rem;
+  padding-bottom: 10em;
+}
+.input-contact-linkedin {
+  width: 75px;
+  margin-right: 2rem;
+}
+.div-contact-individual {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.a-contact-linkedin {
+  color: white;
+}
+#email {
+  font-size: 1rem;
+}
+#p-email {
+  color: white;
+}

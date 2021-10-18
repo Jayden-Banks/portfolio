@@ -1,0 +1,40 @@
+#div-skill-set {
+  background-color: #383636;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+  color: white;
+  text-align: center;
+}
+#h2-skill-set {
+  margin-bottom: 1rem;
+}
+#div-multiple-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.div-individual-skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: .5rem;
+  margin-left: .5rem;
+  width: 75px;
+  height: 75px;
+}
+.img-skill {
+  width: 50px;
+  height: 50px;
+}
+
+@media only screen and (min-width: 700px) {
+  .img-skill {
+    width: 75px;
+    height: 75px;
+  }
+  .div-individual-skill {
+    width: 150px;
+    height: 150px;
+  }
+}
