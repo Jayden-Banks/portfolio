@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.0c5ed0ab.chunk.css",
+    "main.js": "/portfolio/static/js/main.f30f78c7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f30f78c7.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.5e749f4e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.5e749f4e.js.map",
+    "static/js/2.c996e941.chunk.js": "/portfolio/static/js/2.c996e941.chunk.js",
+    "static/js/2.c996e941.chunk.js.map": "/portfolio/static/js/2.c996e941.chunk.js.map",
+    "static/js/3.b1b75ce5.chunk.js": "/portfolio/static/js/3.b1b75ce5.chunk.js",
+    "static/js/3.b1b75ce5.chunk.js.map": "/portfolio/static/js/3.b1b75ce5.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.0c5ed0ab.chunk.css.map": "/portfolio/static/css/main.0c5ed0ab.chunk.css.map",
+    "static/js/2.c996e941.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c996e941.chunk.js.LICENSE.txt",
+    "static/media/css.cf8b32eb.png": "/portfolio/static/media/css.cf8b32eb.png",
+    "static/media/git.592eeae4.png": "/portfolio/static/media/git.592eeae4.png",
+    "static/media/github-icon-black.f47ffea5.png": "/portfolio/static/media/github-icon-black.f47ffea5.png",
+    "static/media/html.76718f85.png": "/portfolio/static/media/html.76718f85.png",
+    "static/media/javascriptLogo.d1f626f0.png": "/portfolio/static/media/javascriptLogo.d1f626f0.png",
+    "static/media/jestLogo.1396091f.png": "/portfolio/static/media/jestLogo.1396091f.png",
+    "static/media/linkedin-icon-black.386a064d.png": "/portfolio/static/media/linkedin-icon-black.386a064d.png",
+    "static/media/pythonLogo.9431343c.png": "/portfolio/static/media/pythonLogo.9431343c.png",
+    "static/media/reactLogo.f3e4e568.png": "/portfolio/static/media/reactLogo.f3e4e568.png",
+    "static/media/About.css": "/portfolio/static/media/self.c6ed5d8c.jpg",
+    "static/media/sqlLogo.9c9e4184.png": "/portfolio/static/media/sqlLogo.9c9e4184.png",
+    "static/media/toy-workxs-icon.67e9927e.png": "/portfolio/static/media/toy-workxs-icon.67e9927e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e749f4e.js",
+    "static/js/2.c996e941.chunk.js",
+    "static/css/main.0c5ed0ab.chunk.css",
+    "static/js/main.f30f78c7.chunk.js"
+  ]
+}
