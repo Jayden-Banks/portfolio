@@ -4,8 +4,31 @@ import React from "react";
 import github from "../assets/github-icon-black.png";
 import toyWorkxs from "../assets/toy-workxs-icon.png"
 
+import javascriptLogo from '../assets/skills/javascriptLogo.png'
+import reactLogo from '../assets/skills/reactLogo.png'
+import nodeJSLogo from '../assets/skills/nodeJS.png'
+import sqlLogo from '../assets/skills/sqlLogo.png'
+import gitLogo from '../assets/skills/git.png'
+import jestLogo from '../assets/skills/jestLogo.png'
+import htmlLogo from '../assets/skills/html.png'
+import cssLogo from '../assets/skills/css.png'
+import pythonLogo from '../assets/skills/pythonLogo.png'
+import fitnessLogo from '../assets/fitnessLogo.png'
+
+import YoutubeEmbed from "./YoutubeEmbed";
+import SimpleImageSlider from "react-simple-image-slider";
+
+
 
 function Projects() {
+  const screenshotsPixelProject = [
+    { url: "https://wallpaperaccess.com/full/19681.jpg" },
+    { url: "https://wallpaperaccess.com/full/19681.jpg" },
+    { url: "https://wallpaperaccess.com/full/19681.jpg" },
+    { url: "https://wallpaperaccess.com/full/19681.jpg" },
+    { url: "https://wallpaperaccess.com/full/19681.jpg" },
+    { url: "https://wallpaperaccess.com/full/19681.jpg" },
+  ]
   return (
     <div id="div-projects">
       <h2 id="h2-projects-title">Projects</h2>
@@ -43,9 +66,9 @@ function Projects() {
             </div>
           <h4 className="h4-project-overview">Tech:</h4>
           <div className="div-project-tech">
-            <img src={github} alt="" className="img-project-tech" />
-            <img src={github} alt="" className="img-project-tech" />
-            <img src={github} alt="" className="img-project-tech" />
+            <img src={reactLogo} alt="react" className="img-project-tech" />
+            <img src={javascriptLogo} alt="javascript" className="img-project-tech" />
+            <img src={nodeJSLogo} alt="node js" className="img-project-tech" />
           </div>
         </div>
         <div className="div-individual-projects">
@@ -70,10 +93,21 @@ function Projects() {
           </div>
           <h4 className="h4-project-overview">Tech:</h4>
           <div className="div-project-tech">
-            <img src={github} alt="" className="img-project-tech" />
-            <img src={github} alt="" className="img-project-tech" />
-            <img src={github} alt="" className="img-project-tech" />
+            <img src={javascriptLogo} alt="javascript" className="img-project-tech" />
+            <img src={htmlLogo} alt="html" className="img-project-tech" />
+            <img src={cssLogo} alt="css" className="img-project-tech" />
           </div>
+      <YoutubeEmbed embedId="04twgTk_4ow" />
+      <div class="video-responsive">
+
+      <SimpleImageSlider
+        width={'100%'}
+        height={'100%'}
+        images={screenshotsPixelProject}
+        showBullets={true}
+        showNavs={true}
+        />
+        </div>
         </div>
         <div className="div-individual-projects">
           <h3 className="h3-project-title">Fitness App</h3>
@@ -85,7 +119,18 @@ function Projects() {
             labore modi?
           </p>
           <div className="div-project-github-link">
-            <a href="https://github.com/Jayden-Banks/pixelProject" target="_blank" rel="noreferrer">
+            <a href="https://fitness-app-jayden-banks.herokuapp.com/" target="_blank" rel="noreferrer">
+            <input
+              type="image"
+              className="input-link-header input-about-link input-project-github"
+              src={fitnessLogo}
+              alt="linkedin icon"
+            />
+            </a>
+            <a href="https://fitness-app-jayden-banks.herokuapp.com/" target="_blank" rel="noreferrer">Fitness App Website</a>
+            </div>
+          <div className="div-project-github-link">
+            <a href="https://github.com/Jayden-Banks/fitness-app" target="_blank" rel="noreferrer">
             <input
               type="image"
               className="input-link-header  input-about-link input-project-github"
@@ -93,13 +138,13 @@ function Projects() {
               alt="linkedin icon"
             />
             </a>
-            <a href="https://github.com/Jayden-Banks/pixelProject" target="_blank" rel="noreferrer">Github Fitness App</a>
+            <a href="https://github.com/Jayden-Banks/fitness-app" target="_blank" rel="noreferrer">Github Fitness App</a>
           </div>
           <h4 className="h4-project-overview">Tech:</h4>
           <div className="div-project-tech">
-            <img src={github} alt="" className="img-project-tech" />
-            <img src={github} alt="" className="img-project-tech" />
-            <img src={github} alt="" className="img-project-tech" />
+            <img src={javascriptLogo} alt="javascript" className="img-project-tech" />
+            <img src={htmlLogo} alt="html" className="img-project-tech" />
+            <img src={cssLogo} alt="css" className="img-project-tech" />
           </div>
         </div>
       </div>
