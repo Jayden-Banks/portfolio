@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0c5ed0ab.chunk.css",
-    "main.js": "/portfolio/static/js/main.f30f78c7.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f30f78c7.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.5e749f4e.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.5e749f4e.js.map",
-    "static/js/2.c996e941.chunk.js": "/portfolio/static/js/2.c996e941.chunk.js",
-    "static/js/2.c996e941.chunk.js.map": "/portfolio/static/js/2.c996e941.chunk.js.map",
-    "static/js/3.b1b75ce5.chunk.js": "/portfolio/static/js/3.b1b75ce5.chunk.js",
-    "static/js/3.b1b75ce5.chunk.js.map": "/portfolio/static/js/3.b1b75ce5.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.ebb5b2cb.chunk.css",
+    "main.js": "/portfolio/static/js/main.b344fd49.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b344fd49.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.21bce77b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.21bce77b.js.map",
+    "static/js/2.5214d8cb.chunk.js": "/portfolio/static/js/2.5214d8cb.chunk.js",
+    "static/js/2.5214d8cb.chunk.js.map": "/portfolio/static/js/2.5214d8cb.chunk.js.map",
+    "static/js/3.742bcb03.chunk.js": "/portfolio/static/js/3.742bcb03.chunk.js",
+    "static/js/3.742bcb03.chunk.js.map": "/portfolio/static/js/3.742bcb03.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.0c5ed0ab.chunk.css.map": "/portfolio/static/css/main.0c5ed0ab.chunk.css.map",
-    "static/js/2.c996e941.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c996e941.chunk.js.LICENSE.txt",
+    "static/css/main.ebb5b2cb.chunk.css.map": "/portfolio/static/css/main.ebb5b2cb.chunk.css.map",
+    "static/js/2.5214d8cb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5214d8cb.chunk.js.LICENSE.txt",
     "static/media/css.cf8b32eb.png": "/portfolio/static/media/css.cf8b32eb.png",
+    "static/media/fitnessLogo.7ed24d61.png": "/portfolio/static/media/fitnessLogo.7ed24d61.png",
     "static/media/git.592eeae4.png": "/portfolio/static/media/git.592eeae4.png",
     "static/media/github-icon-black.f47ffea5.png": "/portfolio/static/media/github-icon-black.f47ffea5.png",
     "static/media/html.76718f85.png": "/portfolio/static/media/html.76718f85.png",
@@ -26,9 +27,9 @@
     "static/media/toy-workxs-icon.67e9927e.png": "/portfolio/static/media/toy-workxs-icon.67e9927e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5e749f4e.js",
-    "static/js/2.c996e941.chunk.js",
-    "static/css/main.0c5ed0ab.chunk.css",
-    "static/js/main.f30f78c7.chunk.js"
+    "static/js/runtime-main.21bce77b.js",
+    "static/js/2.5214d8cb.chunk.js",
+    "static/css/main.ebb5b2cb.chunk.css",
+    "static/js/main.b344fd49.chunk.js"
   ]
 }
