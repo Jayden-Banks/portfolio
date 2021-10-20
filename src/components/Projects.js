@@ -18,16 +18,28 @@ import fitnessLogo from '../assets/fitnessLogo.png'
 import YoutubeEmbed from "./YoutubeEmbed";
 import SimpleImageSlider from "react-simple-image-slider";
 
+import pb1 from '../assets/pixel_images/PB-1.png'
+import pb2 from '../assets/pixel_images/PB-2.png'
+import pb3 from '../assets/pixel_images/PB-3.png'
+import pb4 from '../assets/pixel_images/PB-4.png'
+import pb5 from '../assets/pixel_images/PB-5.png'
+import pb6 from '../assets/pixel_images/PB-6.png'
+
+import fa1 from '../assets/fitness_images/FA-1.png'
+
 
 
 function Projects() {
   const screenshotsPixelProject = [
-    { url: "https://wallpaperaccess.com/full/19681.jpg" },
-    { url: "https://wallpaperaccess.com/full/19681.jpg" },
-    { url: "https://wallpaperaccess.com/full/19681.jpg" },
-    { url: "https://wallpaperaccess.com/full/19681.jpg" },
-    { url: "https://wallpaperaccess.com/full/19681.jpg" },
-    { url: "https://wallpaperaccess.com/full/19681.jpg" },
+    { url: pb1 },
+    { url: pb2 },
+    { url: pb3 },
+    { url: pb4 },
+    { url: pb5 },
+    { url: pb6 },
+  ]
+  const screenshotsFitnessApp = [
+    { url: fa1 },
   ]
   return (
     <div id="div-projects">
@@ -70,6 +82,18 @@ function Projects() {
             <img src={javascriptLogo} alt="javascript" className="img-project-tech" />
             <img src={nodeJSLogo} alt="node js" className="img-project-tech" />
           </div>
+          <YoutubeEmbed embedId="SR3KVR0EqZ8" />
+      <div class="div-slider">
+
+      <SimpleImageSlider
+        width={330}
+        height={260}
+        images={screenshotsPixelProject}
+        showBullets={true}
+        showNavs={true}
+        navStyle={2}
+        />
+        </div>
         </div>
         <div className="div-individual-projects">
           <h3 className="h3-project-title">Pixel Project</h3>
@@ -98,14 +122,15 @@ function Projects() {
             <img src={cssLogo} alt="css" className="img-project-tech" />
           </div>
       <YoutubeEmbed embedId="04twgTk_4ow" />
-      <div class="video-responsive">
+      <div class="div-slider">
 
       <SimpleImageSlider
-        width={'100%'}
-        height={'100%'}
+        width={330}
+        height={260}
         images={screenshotsPixelProject}
         showBullets={true}
         showNavs={true}
+        navStyle={2}
         />
         </div>
         </div>
@@ -146,6 +171,17 @@ function Projects() {
             <img src={htmlLogo} alt="html" className="img-project-tech" />
             <img src={cssLogo} alt="css" className="img-project-tech" />
           </div>
+          <div class="div-slider" id="id-slider-fitness">
+
+      <SimpleImageSlider
+        width={330}
+        height={260}
+        images={screenshotsFitnessApp}
+        showBullets={true}
+        showNavs={true}
+        navStyle={2}
+        />
+        </div>
         </div>
       </div>
     </div>

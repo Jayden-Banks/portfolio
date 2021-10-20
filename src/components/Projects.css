@@ -62,6 +62,13 @@
 .input-project-github {
   margin-right: 1rem;
 }
+.div-slider {
+  margin-bottom: 1.5rem;
+}
+
+#id-slider-fitness {
+  margin-top: 1rem;
+}
 @media only screen and (min-width: 700px) {
   .div-individual-projects {
     max-width: 350px;
