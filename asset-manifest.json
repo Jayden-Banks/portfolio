@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ebb5b2cb.chunk.css",
-    "main.js": "/portfolio/static/js/main.b344fd49.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b344fd49.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.3f83f2af.chunk.css",
+    "main.js": "/portfolio/static/js/main.86ec0a19.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.86ec0a19.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.21bce77b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.21bce77b.js.map",
-    "static/js/2.5214d8cb.chunk.js": "/portfolio/static/js/2.5214d8cb.chunk.js",
-    "static/js/2.5214d8cb.chunk.js.map": "/portfolio/static/js/2.5214d8cb.chunk.js.map",
+    "static/js/2.759ec5ef.chunk.js": "/portfolio/static/js/2.759ec5ef.chunk.js",
+    "static/js/2.759ec5ef.chunk.js.map": "/portfolio/static/js/2.759ec5ef.chunk.js.map",
     "static/js/3.742bcb03.chunk.js": "/portfolio/static/js/3.742bcb03.chunk.js",
     "static/js/3.742bcb03.chunk.js.map": "/portfolio/static/js/3.742bcb03.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.ebb5b2cb.chunk.css.map": "/portfolio/static/css/main.ebb5b2cb.chunk.css.map",
-    "static/js/2.5214d8cb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5214d8cb.chunk.js.LICENSE.txt",
+    "static/css/main.3f83f2af.chunk.css.map": "/portfolio/static/css/main.3f83f2af.chunk.css.map",
+    "static/js/2.759ec5ef.chunk.js.LICENSE.txt": "/portfolio/static/js/2.759ec5ef.chunk.js.LICENSE.txt",
+    "static/media/FA-1.d88762c4.png": "/portfolio/static/media/FA-1.d88762c4.png",
+    "static/media/PB-1.6ee40623.png": "/portfolio/static/media/PB-1.6ee40623.png",
+    "static/media/PB-2.0da9e707.png": "/portfolio/static/media/PB-2.0da9e707.png",
+    "static/media/PB-3.72d53f1c.png": "/portfolio/static/media/PB-3.72d53f1c.png",
+    "static/media/PB-4.06ae296b.png": "/portfolio/static/media/PB-4.06ae296b.png",
+    "static/media/PB-5.6165b10a.png": "/portfolio/static/media/PB-5.6165b10a.png",
+    "static/media/PB-6.43eb6994.png": "/portfolio/static/media/PB-6.43eb6994.png",
     "static/media/css.cf8b32eb.png": "/portfolio/static/media/css.cf8b32eb.png",
     "static/media/fitnessLogo.7ed24d61.png": "/portfolio/static/media/fitnessLogo.7ed24d61.png",
     "static/media/git.592eeae4.png": "/portfolio/static/media/git.592eeae4.png",
@@ -28,8 +35,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.21bce77b.js",
-    "static/js/2.5214d8cb.chunk.js",
-    "static/css/main.ebb5b2cb.chunk.css",
-    "static/js/main.b344fd49.chunk.js"
+    "static/js/2.759ec5ef.chunk.js",
+    "static/css/main.3f83f2af.chunk.css",
+    "static/js/main.86ec0a19.chunk.js"
   ]
 }
