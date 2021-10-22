@@ -69,8 +69,29 @@
 #id-slider-fitness {
   margin-top: 1rem;
 }
+
+.rsis-image > div {
+  background-position: center !important;
+  /* background-size: cover !important; */
+}
+
 @media only screen and (min-width: 700px) {
   .div-individual-projects {
     max-width: 350px;
   }
+}
+@media only screen and (max-width: 700px) {
+  .div-slider > div {
+    width: 280px !important;
+  }
+  .div-slider > div > div {
+    width: 280px !important;
+  }
+  .rsis-container > div {
+    width: 280px !important;
+    background-position: center !important;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+  }
+  
 }

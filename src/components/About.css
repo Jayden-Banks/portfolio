@@ -17,13 +17,15 @@
 
 
 #div-picture {
-  background-image: url(../assets/self.jpg);
+  /* background-image: url(../assets/self.jpg); */
   /* width: 100%;
   height: 100%; */
+  width: 150px;
   height: 200px;
   background-repeat: no-repeat;
-  background-size: contain;
-  min-width: 150px;
+  background-size: cover;
+  background-position: center;
+  /* min-width: 150px; */
   /* border-radius: 50%; */
   border: 1px solid #383636;
   /* box-shadow: 1px 1px 1px 1px #383636; */

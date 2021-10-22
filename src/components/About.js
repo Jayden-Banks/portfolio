@@ -2,13 +2,15 @@ import React from 'react'
 import linkedin from '../assets/linkedin-icon-black.png'
 import github from '../assets/github-icon-black.png'
 import './About.css'
+import self from '../assets/self.jpg'
 
+// npm run deploy 
 function About() {
   return (
     <div id="div-about">
       <div id="div-about-picture">
-        <div id="div-picture">
-          <div id="div-picture-title">Jayden Banks <br /> Web Developer</div>
+        <div id="div-picture" style= {{backgroundImage: `URL(${self})`}}>
+          <div id="div-picture-title" >Jayden Banks <br /> Web Developer</div>
         </div>
       </div>
       <div id="div-about-bio">

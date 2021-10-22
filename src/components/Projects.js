@@ -49,10 +49,9 @@ function Projects() {
           <h3 className="h3-project-title">Toy Workxs</h3>
           <h4 className="h4-project-overview">Overview:</h4>
           <p className="p-project-overview">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-            officiis hic adipisci incidunt esse voluptates dolor reprehenderit
-            at, voluptatum numquam aperiam eos facilis rem nisi id eum, mollitia
-            labore modi?
+            A full stack react e-commerce toy store app. Uses a postgres database and hosted on heroku. This app tries to be as realistic as possible and allows users to
+            create accounts, add/remove products in cart, checkout using stripe and then see their order history. The layout is entirely made from basic css and flex-box to show
+            full understanding of the language.
           </p>
           <div className="div-project-github-link">
             <a href="https://capstone-jayden-banks.herokuapp.com/" target="_blank" rel="noreferrer">
@@ -99,10 +98,8 @@ function Projects() {
           <h3 className="h3-project-title">Pixel Project</h3>
           <h4 className="h4-project-overview">Overview:</h4>
           <p className="p-project-overview">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-            officiis hic adipisci incidunt esse voluptates dolor reprehenderit
-            at, voluptatum numquam aperiam eos facilis rem nisi id eum, mollitia
-            labore modi?
+            A full stack javascript game application that puts 2 fighters against each other. The app creates fighter objects with names, health, and other properties. Then as the user clicks or misclicks 
+            circles that appear on the screen, health is taken away from the hero or enemy by updating the fighter objects. Express and Axios are used to make calls from the front to the back.
           </p>
           <div className="div-project-github-link">
             <a href="https://github.com/Jayden-Banks/pixelProject" target="_blank" rel="noreferrer">
@@ -138,10 +135,9 @@ function Projects() {
           <h3 className="h3-project-title">Fitness App</h3>
           <h4 className="h4-project-overview">Overview:</h4>
           <p className="p-project-overview">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-            officiis hic adipisci incidunt esse voluptates dolor reprehenderit
-            at, voluptatum numquam aperiam eos facilis rem nisi id eum, mollitia
-            labore modi?
+            A vanilla javascript full stack calorie counter app. This app connects to an external api for data on food and allows the user to search for food and add
+            food that they have eaten to a list that then can be checked to see if it their total food calories are under their goal. The app uses axios and express to make the api calls and
+            stores the info on the back end. 
           </p>
           <div className="div-project-github-link">
             <a href="https://fitness-app-jayden-banks.herokuapp.com/" target="_blank" rel="noreferrer">
