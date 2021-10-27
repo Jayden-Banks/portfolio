@@ -14,6 +14,7 @@ import htmlLogo from '../assets/skills/html.png'
 import cssLogo from '../assets/skills/css.png'
 import pythonLogo from '../assets/skills/pythonLogo.png'
 import fitnessLogo from '../assets/fitnessLogo.png'
+import laptopLogo from '../assets/html_css/laptop.png'
 
 import YoutubeEmbed from "./YoutubeEmbed";
 import SimpleImageSlider from "react-simple-image-slider";
@@ -27,6 +28,16 @@ import pb6 from '../assets/pixel_images/PB-6.png'
 
 import fa1 from '../assets/fitness_images/FA-1.png'
 
+import tw1 from '../assets/toy_images/TW-1.png'
+import tw2 from '../assets/toy_images/TW-2.png'
+import tw3 from '../assets/toy_images/TW-3.png'
+import tw4 from '../assets/toy_images/TW-4.png'
+import tw5 from '../assets/toy_images/TW-5.png'
+import tw6 from '../assets/toy_images/TW-6.png'
+import tw7 from '../assets/toy_images/TW-7.png'
+import tw8 from '../assets/toy_images/TW-8.png'
+import tw9 from '../assets/toy_images/TW-9.png'
+import tw10 from '../assets/toy_images/TW-10.png'
 
 
 function Projects() {
@@ -40,6 +51,18 @@ function Projects() {
   ]
   const screenshotsFitnessApp = [
     { url: fa1 },
+  ]
+  const screenshotsToyWorkxs = [
+    { url: tw1 },
+    { url: tw2 },
+    { url: tw3 },
+    { url: tw4 },
+    { url: tw5 },
+    { url: tw6 },
+    { url: tw7 },
+    { url: tw8 },
+    { url: tw9 },
+    { url: tw10 }
   ]
   return (
     <div id="div-projects">
@@ -87,7 +110,7 @@ function Projects() {
       <SimpleImageSlider
         width={330}
         height={260}
-        images={screenshotsPixelProject}
+        images={screenshotsToyWorkxs}
         showBullets={true}
         showNavs={true}
         navStyle={2}
@@ -178,6 +201,54 @@ function Projects() {
         navStyle={2}
         />
         </div>
+        </div>
+        <div className="div-individual-projects">
+          <h3 className="h3-project-title">HTML CSS Clone</h3>
+          <h4 className="h4-project-overview">Overview:</h4>
+          <p className="p-project-overview">
+            I recreated a website's HTML/CSS completely from sight. This project is to showcase my abilities in basic HTML/CSS and does not have functinality. My goal was to get as close to the
+            orginal design as possible and I feel that I succeeded in doing this both in desktop and mobile views.
+          </p>
+          <div className="div-project-github-link">
+            <a href="https://jayden-banks-css-clone.herokuapp.com/" target="_blank" rel="noreferrer">
+            <input
+              type="image"
+              className="input-link-header input-about-link input-project-github"
+              src={laptopLogo}
+              alt="website icon"
+            />
+            </a>
+            <a href="https://jayden-banks-css-clone.herokuapp.com/" target="_blank" rel="noreferrer">HTML/CSS Clone Website</a>
+            </div>
+          <div className="div-project-github-link">
+            <a href="https://github.com/Jayden-Banks/week3-spec-css-basic-clone" target="_blank" rel="noreferrer">
+            <input
+              type="image"
+              className="input-link-header  input-about-link input-project-github"
+              src={github}
+              alt="github icon"
+            />
+            </a>
+            <a href="https://github.com/Jayden-Banks/week3-spec-css-basic-clone" target="_blank" rel="noreferrer">Github Pixel Project</a>
+          </div>
+          
+          <h4 className="h4-project-overview">Tech:</h4>
+          <div className="div-project-tech">
+            <img src={htmlLogo} alt="html" className="img-project-tech" />
+            <img src={cssLogo} alt="css" className="img-project-tech" />
+          </div>
+      <YoutubeEmbed embedId="CavNEJjwzus" />
+      {/* <div class="div-slider">
+
+      <SimpleImageSlider
+        width={330}
+        height={260}
+        images={screenshotsPixelProject}
+        showBullets={true}
+        showNavs={true}
+        navStyle={2}
+        />
+        </div> */}
         </div>
       </div>
     </div>

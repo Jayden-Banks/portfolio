@@ -74,6 +74,13 @@
   background-position: center !important;
   /* background-size: cover !important; */
 }
+.rsis-container > div {
+  background-position: center !important;
+  background-size: contain !important;
+  background-repeat: no-repeat;
+}
+
+
 
 @media only screen and (min-width: 700px) {
   .div-individual-projects {
