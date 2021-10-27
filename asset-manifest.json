@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ec41404c.chunk.css",
-    "main.js": "/portfolio/static/js/main.4b4301d3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4b4301d3.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.5c751318.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5c751318.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.21bce77b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.21bce77b.js.map",
     "static/js/2.759ec5ef.chunk.js": "/portfolio/static/js/2.759ec5ef.chunk.js",
@@ -36,6 +36,7 @@
     "static/media/html.76718f85.png": "/portfolio/static/media/html.76718f85.png",
     "static/media/javascriptLogo.d1f626f0.png": "/portfolio/static/media/javascriptLogo.d1f626f0.png",
     "static/media/jestLogo.1396091f.png": "/portfolio/static/media/jestLogo.1396091f.png",
+    "static/media/laptop.7e503bd7.png": "/portfolio/static/media/laptop.7e503bd7.png",
     "static/media/linkedin-icon-black.386a064d.png": "/portfolio/static/media/linkedin-icon-black.386a064d.png",
     "static/media/pythonLogo.9431343c.png": "/portfolio/static/media/pythonLogo.9431343c.png",
     "static/media/reactLogo.f3e4e568.png": "/portfolio/static/media/reactLogo.f3e4e568.png",
@@ -47,6 +48,6 @@
     "static/js/runtime-main.21bce77b.js",
     "static/js/2.759ec5ef.chunk.js",
     "static/css/main.ec41404c.chunk.css",
-    "static/js/main.4b4301d3.chunk.js"
+    "static/js/main.5c751318.chunk.js"
   ]
 }
